@@ -30,6 +30,7 @@ namespace Project
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.btnOpen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,11 +43,21 @@ namespace Project
             this.label1.TabIndex = 0;
             this.label1.Text = "GITHUB";
             // 
+            // btnOpen
+            // 
+            this.btnOpen.Location = new System.Drawing.Point(218, 221);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.TabIndex = 1;
+            this.btnOpen.Text = "OPEN";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 375);
+            this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -58,6 +69,7 @@ namespace Project
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnOpen;
     }
 }
 
